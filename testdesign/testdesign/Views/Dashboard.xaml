@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="testdesign.Views.Dashboard">
+    
+    
+
+        <RelativeLayout BackgroundColor="#169CC3">
+
+        
+            <Frame BackgroundColor="White"
+                    CornerRadius="20"
+                    WidthRequest="372"
+                    HeightRequest="400"
+                    RelativeLayout.XConstraint="0"
+                    RelativeLayout.YConstraint="270">
+
+            
+        </Frame>
+
+        <Button Text=""
+                ImageSource="map"
+                TextColor="White"
+                CornerRadius="15"
+                RelativeLayout.XConstraint="60"
+                RelativeLayout.YConstraint="300"                    
+                RelativeLayout.WidthConstraint="120"
+                RelativeLayout.HeightConstraint="120"
+                BackgroundColor="#FD9500"/>
+        <Button Text=""
+                ImageSource="list"
+                TextColor="White"
+                CornerRadius="15"
+                RelativeLayout.XConstraint="60"
+                RelativeLayout.YConstraint="450"                    
+                RelativeLayout.WidthConstraint="120"
+                RelativeLayout.HeightConstraint="120"
+                BackgroundColor="#FD9500"/>
+        <Button Text=""
+                ImageSource="bell"                
+                TextColor="White"
+                CornerRadius="15"
+                RelativeLayout.XConstraint="230"
+                RelativeLayout.YConstraint="300"                    
+                RelativeLayout.WidthConstraint="120"
+                RelativeLayout.HeightConstraint="120"
+                BackgroundColor="#FD9500"/>
+        <Button 
+                ImageSource="globe"
+                Text="Terbaru"
+                TextColor="White"
+                CornerRadius="15"
+                RelativeLayout.XConstraint="230"
+                RelativeLayout.YConstraint="450"                    
+                RelativeLayout.WidthConstraint="120"
+                RelativeLayout.HeightConstraint="120"
+                BackgroundColor="#FD9500"/>
+
+        <SearchBar Placeholder="Cari lowongan"         
+                   RelativeLayout.XConstraint="30"
+                   RelativeLayout.YConstraint="20"
+                   TextColor="White"
+                   WidthRequest="350"
+                   BackgroundColor="#0A7493"/>
+
+
+        </RelativeLayout>
+
+    
+</ContentPage>
