@@ -11,7 +11,7 @@ namespace testdesign
         {
             InitializeComponent();
 
-            MainPage = new Dashboard();
+            MainPage = new Profile();
         }
 
         protected override void OnStart()
