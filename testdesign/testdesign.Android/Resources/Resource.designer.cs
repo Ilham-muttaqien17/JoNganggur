@@ -8394,19 +8394,22 @@ namespace testdesign.Droid
 			public const int notification_tile_bg = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int notify_panel_notification_icon_bg = 2131165305;
+			public const int Notifikasi = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int TeksJonganggur = 2131165306;
+			public const int notify_panel_notification_icon_bg = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int tooltip_frame_dark = 2131165307;
+			public const int TeksJonganggur = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int tooltip_frame_light = 2131165308;
+			public const int tooltip_frame_dark = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int WelcomeImage = 2131165309;
+			public const int tooltip_frame_light = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int WelcomeImage = 2131165310;
 			
 			static Drawable()
 			{

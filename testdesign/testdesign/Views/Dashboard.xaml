@@ -16,10 +16,37 @@
                     RelativeLayout.YConstraint="270">
 
             
-        </Frame>
+            </Frame>
 
-        <Button Text=""
+        <!-- Rekomendasi -->
+
+        <Label Text="Rekomendasi Lowongan" 
+               TextColor="White"
+               FontSize="18"
+               RelativeLayout.XConstraint="30"
+               RelativeLayout.YConstraint="80"/>
+
+        <Button BackgroundColor="#17CA9E"
+                CornerRadius="20"
+                RelativeLayout.WidthConstraint="160"
+                RelativeLayout.HeightConstraint="120"
+                RelativeLayout.XConstraint="30"
+                RelativeLayout.YConstraint="110"/>
+            
+        <Button BackgroundColor="#17CA9E"
+                CornerRadius="20"
+                RelativeLayout.WidthConstraint="160"
+                RelativeLayout.HeightConstraint="120"
+                RelativeLayout.XConstraint="220"
+                RelativeLayout.YConstraint="110"/>
+
+
+        <!-- Menu-menu -->
+            
+        <Button 
                 ImageSource="map"
+                ContentLayout="Top,5"
+                Text="Lokasi"
                 TextColor="White"
                 CornerRadius="15"
                 RelativeLayout.XConstraint="60"
@@ -27,8 +54,10 @@
                 RelativeLayout.WidthConstraint="120"
                 RelativeLayout.HeightConstraint="120"
                 BackgroundColor="#FD9500"/>
-        <Button Text=""
+        <Button 
                 ImageSource="list"
+                ContentLayout="Top,5"
+                Text="Lamaran"
                 TextColor="White"
                 CornerRadius="15"
                 RelativeLayout.XConstraint="60"
@@ -36,8 +65,10 @@
                 RelativeLayout.WidthConstraint="120"
                 RelativeLayout.HeightConstraint="120"
                 BackgroundColor="#FD9500"/>
-        <Button Text=""
-                ImageSource="bell"                
+        <Button 
+                ImageSource="bell"
+                ContentLayout="Top,5"
+                Text="Notifikasi"
                 TextColor="White"
                 CornerRadius="15"
                 RelativeLayout.XConstraint="230"
@@ -47,6 +78,7 @@
                 BackgroundColor="#FD9500"/>
         <Button 
                 ImageSource="globe"
+                ContentLayout="Top,5"
                 Text="Terbaru"
                 TextColor="White"
                 CornerRadius="15"
@@ -55,6 +87,36 @@
                 RelativeLayout.WidthConstraint="120"
                 RelativeLayout.HeightConstraint="120"
                 BackgroundColor="#FD9500"/>
+
+
+
+
+        <!-- Navigasi -->
+
+        <Button 
+                Text="Home"
+                TextColor="White"
+                RelativeLayout.XConstraint="25"
+                RelativeLayout.YConstraint="600"
+                RelativeLayout.WidthConstraint="120"
+                RelativeLayout.HeightConstraint="45"
+                BackgroundColor="#F84E29"/>
+        <Button 
+                Text="Riwayat"
+                TextColor="White"
+                RelativeLayout.XConstraint="148"
+                RelativeLayout.YConstraint="600"
+                RelativeLayout.WidthConstraint="120"
+                RelativeLayout.HeightConstraint="45"
+                BackgroundColor="#F84E29"/>
+        <Button 
+                Text="Profile"
+                TextColor="White"
+                RelativeLayout.XConstraint="270"
+                RelativeLayout.YConstraint="600"
+                RelativeLayout.WidthConstraint="120"
+                RelativeLayout.HeightConstraint="45"
+                BackgroundColor="#F84E29"/>
 
         <SearchBar Placeholder="Cari lowongan"         
                    RelativeLayout.XConstraint="30"
